@@ -1,0 +1,395 @@
+/* Ubiquitous */
+
+* {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.mail-to-link {
+    color: #df5277;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+}
+
+h1, h2, h3 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #6a6969;
+    margin: 30px 0;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #6a6969;
+    margin: 15px 0 10px;
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #6a6969;
+    margin: 0 0 19px;
+}
+
+.welcome-content p, .our-macarons-content p, .gifts-parties-content p, .contact-content p {
+    font-size: 14px;
+    color: #6a6969;
+}
+
+ul {
+    font-size: 14px;
+    color: #6a6969;
+}
+
+/* Header */
+
+header {
+    height: 72px;
+    background-color: #fffabe;
+}
+
+.site-logo {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+nav {
+    position: absolute;
+    top: 16px;
+    right: 70px;
+}
+
+nav li {
+    display: inline;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0 25px;
+}
+
+.current-link a {
+    color: #d42551;
+}
+
+nav a {
+    color: #515151;
+}
+
+nav a:hover, nav a:active {
+    color: #d42551;
+}
+
+/* Home Page */
+
+.welcome-image {
+    height: 400px;
+}
+
+.welcome-content {
+    display: flex;
+}
+
+.welcome-content-img {
+    padding: 0 0 0 30px;
+    width: 20%;
+    display: inline-block;
+}
+
+img.floating-macarons {
+    margin-top: 150px;
+}
+
+.welcome-content-text {
+    padding: 60px;
+    text-align: justify;
+    line-height: 1.5;
+    width: 80%;
+    display: inline-block;
+}
+
+.weekly-flavors {
+    width: 100%;
+    margin: 0 auto 50px;
+    position: relative;
+    text-align:center;
+    clear: both;
+}
+
+.day-of-week {
+    height: 140px;
+    width: 126px;
+    background-color: #fffabe;
+    display: inline-block;
+    text-align: left;
+    margin: 0 5px;
+}
+
+.day-and-time, .day-of-week span {
+    margin-left: 10px;
+}
+
+.day-of-week img {
+    float: right;
+    margin-right: 10px;
+}
+
+.flavor-wrapper {
+    padding: 5px 0;
+}
+
+.day-flavor-one, .day-flavor-two {
+    font-size: 12px;
+    color: #6a6969;
+    height: 33px;
+}
+
+.day-flavor-coconut {
+    color: #fff;
+    background-color: #824603;
+}
+
+.day-flavor-vanilla {
+    color: #fff;
+    background-color: #df5277;
+}
+
+.day-flavor-lemon {
+    color: #fff;
+    background-color: #a2304e;
+}
+
+.day-flavor-almond {
+    color: #fff;
+    background-color: #c39005;
+}
+
+/* Our Macarons */
+
+.our-macarons-content {
+    background: url(../assets/images/our-macarons-background.png);
+    background-position: right bottom;
+    height: 520px;
+    margin: 50px 0;
+}
+
+.our-macarons-content-inner, .gifts-parties-content-inner {
+    margin: 80px 50px;
+}
+
+.classic-flavors p {
+    margin: 60px 0 0 0;
+}
+
+/* Gifts and Parties */
+
+.gifts-parties-content {
+    background: url(../assets/images/gifts-parties-background.png);
+    background-position: right bottom;
+    height: 520px;
+    margin: 50px 0 30px;
+}
+
+/* Contact */
+
+hr {
+    display: none;
+}
+
+.contact-content-inner {
+    margin: 0 auto;
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.contact-layout-1, .contact-layout-2, .contact-layout-3 {
+    display: inline-block;
+    text-align: left;
+}
+
+.contact-layout-1, .contact-layout-2 {
+    vertical-align: top;
+}
+
+.contact-layout-1 p {
+    line-height: 1.5;
+    margin: 0;
+}
+
+.contact-layout-1 {
+    width: 330px;
+}
+
+.contact-layout-2 {
+    width: 330px;
+}
+
+.contact-layout-3 {
+    width: 230px;
+    background: url(../assets/images/macarons-image.png) no-repeat center center;
+    height: 450px;
+}
+
+input, textarea, button {
+    width: 310px;
+    height: 35px;
+    padding: 0 0 0 10px;
+    font-size: 14px;
+    color: #6a6969;
+    text-transform: capitalize;
+    border: none;
+    background-color: #f5f5f5;
+    margin: 5px 0;
+}
+
+textarea {
+    padding-top: 10px;
+    height: 70px;
+}
+
+button {
+    width: 155px;
+    height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    float: right;
+    margin-right: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    height: 80px;
+    background-color: #df5277;
+    color: #fff;
+    font-size: 12px;
+}
+
+footer section {
+    text-align: center;
+    margin: auto;
+    padding: 15px 0 0;
+}
+
+footer div {
+    display: inline-block;
+    padding: 0 80px;
+}
+
+footer img {
+    padding: 0 10px;
+    top: 2px;
+    position: relative;
+}
+
+footer span {
+    line-height: 2;
+}
+
+footer .footer-social span {
+    padding-right: 10px;
+}
+
+footer p {
+    margin: 5px;
+    font-size: 11px;
+}
+
+/* Media Queries - iPhone 6 Mobile Responsiveness */
+
+@media screen and (max-device-width: 375px) {
+
+    /* Ubiquitous */
+
+    .wrapper {
+        width: 100%
+    }
+
+    /* Header */
+
+    .site-logo {
+        position: relative;
+        display: block;
+        margin: auto;
+        top: 10px;
+        left: 0;
+    }
+
+    nav {
+        position: relative;
+        top: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    nav li {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    /* Contact Page */
+
+    .contact-map-image {
+        width: 100%;
+    }
+
+    .contact-content-inner {
+        padding: 10px 40px 30px;
+    }
+
+    .contact-layout-1 {
+        padding-bottom: 20px;
+    }
+
+    hr {
+        display: block;
+        position: absolute;
+        right: 0;
+        left: 0;
+        opacity: 0.5;
+    }
+
+    .contact-layout-2 {
+        padding-top: 20px;
+    }
+
+    .contact-layout-3 {
+        display: none;
+    }
+
+    input, textarea {
+        width: 285px;
+    }
+
+    button {
+        margin-right: 35px;
+    }
+
+    /* Footer */
+
+    footer section {
+        padding: 5px 0;
+    }
+
+    .footer-email, .footer-phone {
+        padding: 0;
+    }
+
+
+}
