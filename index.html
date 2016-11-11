@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="mboutiqueApp">
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="MBoutique Macarons">
@@ -7,37 +7,40 @@
     <meta name="author" content="Taylor Sturtz">
     <title>MBoutique Macarons</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+    <script src="script.js"></script>
 </head>
-<body>
+<body ng-controller="mainController as mc">
 <div class="wrapper">
     <header>
-        <a href="#"><img class="site-logo" alt="Logo" src="../assets/images/logo.png"></a>
+        <a href="#home"><img class="site-logo" alt="Logo" src="assets/images/logo.png"></a>
         <nav>
             <ul>
-                <li class="current-link"><a href="index.html">Welcome</a></li>
-                <li><a href="our_macarons.html">Our Macarons</a></li>
-                <li><a href="gifts_parties.html">Gifts &amp; Parties</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#home">Welcome</a></li>
+                <li><a href="#our_macarons">Our Macarons</a></li>
+                <li><a href="#gifts_parties">Gifts &amp; Parties</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <div ng-view=""></div>
+    <div ng-view></div>
 
     <footer>
         <section>
             <div class="footer-email">
-                <img alt="email-icon" src="../assets/images/mail.png">
+                <img alt="email-icon" src="assets/images/mail.png">
                 <span>order@mboutique.com</span>
             </div>
             <div class="footer-phone">
-                <img alt="phone-icon" src="../assets/images/phone.png">
+                <img alt="phone-icon" src="assets/images/phone.png">
                 <span>949.800-3111</span>
             </div>
             <div class="footer-social">
                 <span>Follow us</span>
-                <img alt="facebook-icon" src="../assets/images/facebook.png">
-                <img alt="twitter-icon" src="../assets/images/twitter.png">
+                <img alt="facebook-icon" src="assets/images/facebook.png">
+                <img alt="twitter-icon" src="assets/images/twitter.png">
             </div>
             <p>Copyright &copy; 2014 MBoutique. All rights reserved.</p>
         </section>
@@ -45,3 +48,4 @@
 </div>
 </body>
 </html>
+
